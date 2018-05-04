@@ -1,0 +1,497 @@
+﻿html {
+	background: url(../images/masterpage/background.jpg)fixed;
+    background-attachment:scroll; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;  
+	-o-background-size: cover;
+	background-size: cover;  
+	position: relative;
+}
+
+body {
+    color: #574c3f;
+    font-family: Times New Roman;
+    font-size: 16px;
+	padding-bottom: 10px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+p { 
+    font: justify;
+}
+ 
+/*Wrapper Starter*/
+#wrapper {
+    width: 1250px;
+    margin: auto;
+	padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+#banner {
+   max-width: 1250px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+}
+
+#navigation {
+    height: 10px;
+    background: linear-gradient(to top, #ffffff, #ffffff, orange, #ffffff, #ffffff);
+}
+
+#nav {
+    display: block;
+    list-style: none;
+    text-align: center;
+    height: 500px;
+}
+
+#nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+#nav li {
+    float: left;
+    display: block;
+    margin-top: -20px;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid #ffffff;
+}
+
+#nav a:link , #nav a :visited, #nav a:active {
+    display: block;
+    color: #574c3f;
+    font-size: 18px;
+	font-family: Times New Roman;
+    text-decoration: none;
+}
+
+
+#nav a:hover {
+   color: red;
+   box-shadow: 0px -3px 0px 0px orange;
+}
+
+
+
+#shoppingcart-nav {
+    display: block;
+    list-style: none;
+}
+
+#shoppingcart-nav ul {
+    list-style: none;
+}
+
+#shoppingcart-nav li {
+    margin-left: 970px;
+    margin-top: -48px;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid #ffffff;
+}
+
+#shoppingcart-nav a:link , #shoppingcart-nav a :visited, #shopingcart-nav a:active {
+    display: block;
+    color: #574c3f;
+    font-size: 18px;
+	font-family: Times New Roman;
+    text-decoration: none;
+}
+
+
+#shoppingcart-nav a:hover {
+   color: red;
+   box-shadow: 0px -3px 0px 0px orange;
+}
+
+
+#reglogin {
+    background: linear-gradient(to top,  #ffffff, #ffffff, #ffffff, #ffffff, orange, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    padding-right: 35px;
+	margin-top: 15px;
+}
+
+#navreglogin {
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+#navreglogin ul {
+    list-style: none;
+    text-align: center;
+}
+
+#navreglogin li {
+    float: left;
+    display: block;
+    margin-top: -20px;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid #ffffff;
+}
+
+#navreglogin a:link , #nav a :visited, #nav a:active {
+    display: block;
+    color: #574c3f;
+    font-size: 18px;
+	font-family: Times New Roman;
+    text-decoration: none;
+}
+
+#navreglogin a:hover {
+   color: red;
+   box-shadow: 0px -3px 0px 0px orange;
+}
+
+#contents {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 400px;
+}
+/*End of Wrapper*/
+
+/*Company About Detail*/
+#content-about {
+    min-height: 400px;
+}
+
+/*End of Company About Detail*/
+
+/*Contact And Google Map API*/
+#content-contact {
+    min-height: 300px;
+	background: #fff;
+    padding-left:60px;
+}
+	
+.contact-forms {
+    text-transform: capitalize;
+    box-shadow: 1px 1px 1px 1px #000;
+}
+
+
+.contact-form h2 {
+    text-align: center;
+    width: 437px;
+}
+
+.form-group {
+    padding-top: 10px;
+}
+
+.form-control::-moz-placeholder {
+    color: #8D8D8D;
+}
+
+.form-control {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #696763;
+  height: 40px;
+  padding-left: 6px;
+  padding-right: 1px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow:inherit;
+}
+
+#message {
+  height:160px;
+  resize:none;
+}
+
+.form-control:focus, 
+.form-control:hover {
+  box-shadow: inherit;
+  border-color: #FDB45E;
+}
+/*Contact And Google Map API*/
+
+#map {
+    width: 600px;
+    height: 390px;
+    box-shadow: 1px 1px 1px 1px #000;
+}
+
+.googlelocation {
+    text-transform: capitalize;
+    padding-right: 70px;
+    padding-left: 50px;
+}
+
+.googlelocation h2 {
+    text-align: center;
+}
+
+#map-static h2 {
+    text-align: left;
+}
+
+#map-static {
+    padding-bottom: 5px;
+    width: 1090px;
+}
+
+#map-image {
+    box-shadow: 1px 1px 1px 1px #000;    
+}
+/*End of Contact And Google Map API*/
+
+/*Register And Login*/
+#content-login {
+	padding-left: 360px;
+    min-height: 300px;
+	background: #fff;
+}
+	
+.login-forms {
+  text-transform: capitalize;
+}
+
+.login-form {
+  height: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+}
+
+.login-group {
+  padding-top: 10px;
+}
+
+.login-control::-moz-placeholder {
+  color: #8D8D8D;
+}
+
+.login-control {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #696763;
+  height: 40px;
+  padding-left: 6px;
+  padding-right: 1px;
+  width: 400px;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow:inherit;
+}
+
+.login-control:focus, 
+.login-control:hover {
+  box-shadow: inherit;
+  border-color: #FDB45E;
+}
+
+#content-register {
+    min-height: 300px;
+	background: #fff;
+    padding-left: 360px;
+}
+
+.register-forms {
+  text-transform: capitalize;
+}
+
+.register-form {
+  width: 450px;
+  height: 400px;
+}
+
+.register-form h2 {
+  text-align: center;
+}
+
+.register-group {
+  padding-top: 10px;
+}
+
+.register-control::-moz-placeholder {
+  color: #8D8D8D;
+}
+
+.register-control {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #696763;
+  padding-left: 6px;
+  padding-right: 1px;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow:inherit;
+}
+
+.register-control:focus, 
+.register-control:hover {
+  box-shadow: inherit;
+  border-color: #FDB45E;
+}
+/*End of Register And Login*/
+
+/*Footer Stater*/
+#footer {
+    max-width: 1250px;
+}
+
+table, th, tr, td {
+	border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background: #fff;
+}
+
+#footernavigation {
+    height: 115px;
+    background: linear-gradient(to top, #ffffff, orange, #ffffff, #ffffff);
+}
+
+
+.footerfeatures h2 {
+  text-align: center;
+  color:#FE980F;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.footerfeatures ul li a {
+  color: #000;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none; 
+}
+
+.footerfeatures ul li a:hover {
+  color:#FE980F;
+}
+
+.footerfeatures {
+    display: block;
+    list-style: none;
+}
+
+.footerfeatures ul {
+    list-style: none;
+}
+
+.footerfeatures li {
+    display: block;
+}
+
+#copyright  {
+  height: 5px;
+  padding-top:1px;
+  padding-bottom: 5px;
+  padding-left: 15px;	
+  background: linear-gradient(to top, #ffffff, #ffffff, #ffffff, orange, #ffffff);   
+}
+
+/*End of Footer*/
+
+/*Product Properties*/
+#content-product {
+	padding-left: 25px;
+	padding-top: 5px;
+    min-height: 600px;
+	background: #fff;
+}
+	
+.product-forms {
+  text-transform: capitalize;
+}
+
+.product-form {
+  height: 600px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+.product-form h2 {
+  padding-left: 90px;
+  padding-top: 20px;
+}
+
+.product-group {
+  padding-top: 10px;
+}
+
+.product-control::-moz-placeholder {
+  color: #8D8D8D;
+}
+
+.product-control {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #696763;
+  height: 40px;
+  padding-left: 6px;
+  padding-right: 1px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow:inherit;
+}
+
+#message {
+  height:160px;
+  resize:none;
+}
+
+.product-control:focus, 
+.product-control:hover {
+  box-shadow: inherit;
+  border-color: #FDB45E;
+}
+
+.productPrice {
+    color: #ff8600;
+}
+
+.detailsImage {
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;   
+}
+
+.detailsDescription {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.detailsPrice {
+    font-size: 24px;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    clear: both;
+    background: linear-gradient(to bottom, darkgreen, green);
+}
+
+.productbox {
+    padding:10px;
+}
+
+/*End of Product Properties*/

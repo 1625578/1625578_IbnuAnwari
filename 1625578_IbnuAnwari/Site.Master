@@ -1,0 +1,161 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_1625578_IbnuAnwari.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+
+    <title>
+        <asp:ContentPlaceholder ID="title" runat="server">
+
+        </asp:ContentPlaceholder>
+    </title>
+
+	<link rel="icon" href="images/masterpage/ibnulogo.jpg">
+    <link rel="stylesheet" href="sitestyles/stylesheet.css" type="text/css"/>
+    <link href="banner/bannerstyle.css" rel="stylesheet" />
+    <link href="banner/responsiveslides/responsiveslides.css" rel="stylesheet" />
+
+    <script src="Scripts/map.js"></script>
+    <script src="banner/responsiveslides/jquery.min.js"></script>
+    <script src="banner/responsiveslides/responsiveslides.min.js"></script>
+
+</head>
+
+<body runat="server">
+
+    <div>
+        <div id="wrapper">
+		
+            <div id="banner">
+			
+				<div id="reglogin" style="float: right">
+					<ul id="navreglogin">
+					   <table>
+						<tr>
+						<td><li><a href="siteregister.aspx"><asp:Image runat="server" ImageUrl="images/icon/icon_text.png" width='15' height='13' style='padding-right:4px;' alt="images" />Register</a></li></td>
+						<td><li><a href="sitelogin.aspx"><asp:Image runat="server" ImageUrl="images/icon/icon_male.png" width='15' height='13' style='padding-right:4px;' alt="images"  />Login</a></li></td>
+						</tr>
+					   </table>					
+					</ul>
+				</div>			
+			   
+			   <asp:Image runat="server" ImageUrl="images/masterpage/logo.png" width="400" height="100" style="padding-left:50px;" alt="images"/>
+			   
+            </div>
+
+            <div id="navigation">
+                <ul id="nav">
+				   <table>
+				    <tr>
+					<td><li><a href="default.aspx"><asp:Image runat="server" ImageUrl="images/icon/icon_home.png" width='15' height='13' style='padding-right:4px;' alt="images"  />Shop</a></li></td>
+					<td><li><a href="siteproduct.aspx"><asp:Image runat="server" ImageUrl="images/icon/icon_main.png" width='15' height='13' style='padding-right:4px;' alt="images" />Product</a></li></td>
+					<td><li><a href="siteabout.aspx"><asp:Image runat="server" ImageUrl="images/icon/icon_achieve.png" width='15' height='13' style='padding-right:4px;'  alt="images" />About</a></li></td>
+					<td><li><a href="sitecontact.aspx"><asp:Image runat="server" ImageUrl="images/icon/icon_chat.png" width='15' height='13' style='padding-right:4px;' alt="images"  />Contact</a></li></td>
+					</tr>
+                   </table>					
+                </ul>
+            </div>
+
+            <div id="shoppingcart-navigation">
+                <ul id="shoppingcart-nav">
+				   <table>
+				    <tr>
+					<td><li><a href="siteshoppingcart.aspx" runat="server"><asp:Image runat="server" ImageUrl="images/icon/icon_clip.png" width='15' height='13' style='padding-right:4px;'  alt="images"  />Shopping Cart</a></li></td>
+					</tr>
+                   </table>					
+                </ul>
+            </div>	
+
+            <div id="contents">
+                <asp:ContentPlaceHolder ID="content" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+			
+           <div id="footer"> 
+
+			<table>
+			<tr>
+			    <div id="footernavigation">
+
+				<td>
+				<div class="footerfeatures">
+    		    <asp:Image runat="server" ImageUrl="images/masterpage/ibnuorgan.png" width="300" height="190"  alt="images" />
+                </div>
+				</td>
+					
+				<td>
+				<div class="footerfeatures">
+				<h2>Personal Features</h2>
+				   <ul>
+					<li><a href="siteadminlogin.aspx" runat="server">Login Administrator</a></li>
+					<li><a href="sitelogin.aspx" runat="server">Login to your Account</a></li>
+					<li><a href="siteregister.aspx" runat="server">Create a New Account</a></li>
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1625578.win.studentwebserver.co.uk%2FCO5027%2Fdefault.aspx">W3C HTML Code Validation</a></li>                     
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1625578.win.studentwebserver.co.uk%2FCO5027%2Fdefault.aspx">W3C Css Code Validation</a></li>
+					<li><a href="sitepaypal.aspx" runat="server">Register an PayPal Account</a></li><br>
+					<asp:Image runat="server" ImageUrl="images/paypal/paypal.jpg" width="200" height="50"  alt="images" />
+				   </ul>
+                </div>
+                </td>				
+				
+				<td>
+				<div class="footerfeatures">
+				<h2>Our Shop Product</h2>
+				   <ul>
+					<li><a href="siteproduct.aspx" runat="server">Organic Supplement Collection</a></li>
+                    <br>
+					<asp:Image runat="server" ImageUrl="images/paypal/honeysize.jpg" width="200" height="60" alt="images" />
+                    <li>
+                        <table>
+                        <tr><td>
+                        <p>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:100px;height:31px"
+                                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                    alt="Valid CSS!" />
+                            </a>
+                        </p>
+                        </td>
+                        <td>
+                        <p>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:100px;height:31px"
+                                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                alt="Valid CSS!" />
+                            </a>
+                        </p>
+                        </td></tr></table>
+                    </li>
+				   </ul>
+                </div>
+				</td>
+				
+				<td>
+				<div class="footerfeatures">
+				<h2>Company Address</h2>
+				   <ul>
+				    <p>Ibnu Anwari Sendirian Berhad. Unit 22, 1st Floor, Citis Square Building, Berakas, Bandar Seri Begawan BB2713, Negara Brunei Darussalam.</p>
+					<p>Telephone: 222-2225555   |   Fax: 222-2224444</p>
+					<p>Company E-mail: Ad.mail.feedbacks@gmail.com</p>
+				   </ul>
+				</div>
+			    </td>
+			    
+				</div>
+			</tr>
+  		    </table>
+
+			  <div id="copyright"><p>Copyright © 2018, Ibnu Anwari. All rights reserved, designed by 1625578.</p></div>	
+			  
+            </div>
+			
+			
+        </div>
+    </div>
+
+</body>
+
+</html>

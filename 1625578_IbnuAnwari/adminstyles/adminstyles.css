@@ -1,0 +1,221 @@
+﻿html {
+	background: url(../images/masterpage/background.jpg)fixed;
+    background-attachment:scroll; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;  
+	-o-background-size: cover;
+	background-size: cover;  
+	position: relative;
+}
+
+body {
+    color: #574c3f;
+    font-family: Times New Roman;
+    font-size: 16px;
+	padding-bottom: 10px;
+}
+
+a {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+/*Admin Wrapper*/
+#admin-wrapper {
+    width: 1250px;
+    margin: auto;
+	padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+#admin-header {
+	width: 1250px;
+    height: 3px;
+}
+
+#admindashboard, h1 {
+ padding-left: 10px;
+ font-size: 30px;
+}
+
+#admin-backline {
+    background: linear-gradient(to top, #ffffff, orange);
+    height:5px;
+    width: 1205px;
+}
+
+#admin-banner {
+   max-width: 1250px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+}
+
+#admin-page{
+	width: 210px;
+	min-height: 100px;
+    height: 391px;
+}
+
+#admin-reglogin {
+    background: linear-gradient(to top,  #ffffff, #ffffff, #ffffff, #ffffff, orange, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+    padding-right: 35px;
+	margin-top: 15px;
+}
+
+#admin-navreglogin {
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+#admin-navreglogin ul {
+    list-style: none;
+    text-align: center;
+}
+
+#admin-navreglogin li {
+    float: left;
+    display: block;
+    margin-top: -20px;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid #ffffff;
+}
+
+#admin-navreglogin a:link , #admin-nav a :visited, #admin-nav a:active {
+    display: block;
+    color: #574c3f;
+    font-size: 18px;
+	font-family: Times New Roman;
+    text-decoration: none;
+}
+
+#admin-navreglogin a:hover {
+   color: red;
+   box-shadow: 0px -3px 0px 0px orange;
+}
+
+#admin-menu {
+	width:35px;
+	float:left;
+    height: 428px;
+}
+
+#admin-menu ul li{
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+#admin-nav li {
+    text-transform: uppercase;
+	font-weight: bold;
+	padding: 15px;
+	width: 170px;
+    background: linear-gradient(to bottom, #ffffff, orange, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, orange, #ffffff);
+	margin-top: -15px;
+}
+
+#admin-nav a:link , #admin-nav a :visited, #admin-nav a:active {
+    color: #574c3f;
+	font-family: Times New Roman;
+    text-decoration: none;
+}
+
+#admin-nav a:hover {
+   color: red;
+   box-shadow: 0px 0px 0px 0px orange;
+   font-size: 15px;
+ }
+/*End of Admin Wrapper*/
+ 
+/*Admin Content*/
+#admin-content{
+   width: 946px;
+   height: 406px;
+   margin-left: 36px;
+   margin-top: 0px;
+   margin-bottom: 9px;
+   box-shadow: 1px 1px 1px 1px #000;
+}
+
+#admin-titlebox {
+	padding-top: 10px;
+}
+
+#admin-box h2 {
+    background: linear-gradient(to bottom, orange, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
+	color: red;
+	padding-left: 30px;
+}
+
+#admin-detail {
+	padding-left: 30px;
+}
+
+/*End of Admin Content*/
+
+/*Admin Footer Stater*/
+#admin-footer {
+    max-width: 1250px;
+}
+
+table, th, tr, td {
+	border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background: #fff;
+    }
+
+#admin-footernavigation {
+    height: 115px;
+    background: linear-gradient(to top, #ffffff, orange, #ffffff, #ffffff);
+}
+
+
+.admin-footerfeatures h2 {
+  text-align: center;
+  color:#FE980F;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.admin-footerfeatures ul li a {
+  color: #000;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none; 
+}
+
+.admin-footerfeatures ul li a:hover {
+  color:#FE980F;
+}
+
+.admin-footerfeature {
+    display: block;
+    list-style: none;
+}
+
+.admin-footerfeatures ul {
+    list-style: none;
+}
+
+.admin-footerfeatures li {
+    display: block;
+}
+
+#admin-copyright  {
+  height: 5px;
+  padding-top:1px;
+  padding-bottom: 5px;
+  padding-left: 15px;	
+  background: linear-gradient(to top, #ffffff, #ffffff, #ffffff, orange, #ffffff);   
+}
+
+/*End of Admin Footer*/

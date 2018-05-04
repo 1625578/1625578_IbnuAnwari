@@ -1,0 +1,176 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="_1625578_IbnuAnwari.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+
+    <title>
+        <asp:ContentPlaceholder ID="title" runat="server">
+
+        </asp:ContentPlaceholder>
+    </title>
+
+    <link rel="stylesheet" href="adminstyles/adminstyles.css" type="text/css"/>
+    <script src="Scripts/map.js"></script>
+	<link rel="icon" href="images/masterpage/ibnulogo.jpg">
+
+</head>
+
+<body runat="server">
+
+ <form runat="server">
+
+    <div>
+
+        <div id="admin-wrapper">
+		
+            <div id="admin-banner">
+			
+        		<div id="admin-reglogin" style="float: right">
+					<ul id="admin-navreglogin">
+					   <table>
+						<tr>
+						<td><asp:Image runat="server" ImageUrl="images/icon/icon_male.png" width='15' height='13' style='padding-right:4px;'/></td>
+                        <td><asp:Button ID="btnlogout" runat="server" Text="Logout (Admin)" OnClick="btnlogout_Click" /></td>
+						</tr>
+					   </table>					
+					</ul>
+				</div>	
+			   
+			   <asp:Image runat="server" ImageUrl="images/masterpage/logo.png" width="400" height="100" style="padding-left:50px;"/>
+
+               <div id="admin-backline"></div>
+
+               <div id="admin-header">
+				  <div id="admindashboard">
+					<h1><asp:Image runat="server" ImageUrl="images/icon/icon_news.png" width='30' height='25' style='padding-right:4px;'/>Administrator Dashboard</h1>
+				  </div>
+				</div>
+			   
+            </div>	
+
+           <table>
+         
+            <td>
+               <div id="admin-page">
+	
+				<div id="admin-menu">
+				 <ul id="admin-nav">
+				  <li><a href="default.aspx" runat="server">Ibnu Anwari Site</a></li>
+				  <li><a href="adminlistproduct.aspx" runat="server">List of Product</a></li>
+				  <li><a href="adminaddproduct.aspx" runat="server">Add New Product</a></li>
+                  <li><a href="adminregistereduser.aspx" runat="server">Registered User</a></li>
+				  <li><a href="adminpaypal.aspx" runat="server">PayPal</a></li>				  
+				 </ul>
+				</div> 
+               
+               </div>
+			</td>
+
+            <td>
+			<div id="admin-content">
+			   <div id="admin-box">
+				  
+				<h2 id="admin-titlebox"><asp:Image runat="server" ImageUrl="images/icon/icon_main.png" width='30' height='18' style='padding-right:4px;'/><asp:ContentPlaceHolder ID="admincontent" runat="server"></asp:ContentPlaceHolder></h2>
+				
+                <div id="admin-detail">
+               
+				<asp:ContentPlaceHolder ID="admindetail" runat="server">
+			    
+                </asp:ContentPlaceHolder>
+
+				</div>
+				
+			   </div>
+			</div>
+            </td>
+
+            </table>			
+
+
+            <div id="admin-footer"> 
+
+			<table>
+			<tr>
+			    <div id="admin-footernavigation">
+
+				<td>
+				<div class="admin-footerfeatures">
+    		    <asp:Image runat="server" ImageUrl="images/masterpage/ibnuorgan.png" width="300" height="190"/>
+                </div>
+				</td>
+					
+				<td>
+				<div class="admin-footerfeatures">
+				<h2>Personal Features</h2>
+				   <ul>
+					<li><a href="sitelogin.aspx" runat="server">Login to your Account</a></li>
+					<li><a href="siteregister.aspx" runat="server">Create a New Account</a></li>
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1625578.win.studentwebserver.co.uk%2FCO5027%2Fdefault.aspx">W3C HTML Code Validation</a></li>                     
+                    <li><a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2F1625578.win.studentwebserver.co.uk%2FCO5027%2Fdefault.aspx">W3C Css Code Validation</a></li>
+					<li><a href="sitepaypal.aspx">Register an PayPal Account</a></li><br>
+					<asp:Image runat="server" ImageUrl="images/paypal/paypal.jpg" width="200" height="50"/>
+				   </ul>
+                </div>
+                </td>				
+				
+				<td>
+				<div class="adminp-footerfeatures">
+				<h2>Our Shop Product</h2>
+				   <ul>
+					<li><a href="siteproduct.aspx" runat="server">Organic Supplement Collection</a></li><br>
+					<asp:Image runat="server" ImageUrl="images/paypal/honeysize.jpg" width="200" height="60"/>
+                  <li>
+                        <table><tr><td>
+                        <p>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:100px;height:31px"
+                                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                    alt="Valid CSS!" />
+                            </a>
+                        </p>
+                        </td>
+                        <td>
+                        <p>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:100px;height:31px"
+                                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                alt="Valid CSS!" />
+                            </a>
+                        </p>
+                        </td></tr></table>
+                    </li>
+				   </ul>
+                </div>
+				</td>
+				
+				<td>
+				<div class="admin-footerfeatures">
+				<h2>Company Address</h2>
+				   <ul>
+				    <p>Ibnu Anwari Sendirian Berhad. City Square Building, Block B, Second Floor, Lot.5 Unit 1 Berakas, Negara Brunei Darussalam.</p>
+					<p>Telephone: 222-2225555   |   Fax: 222-2224444</p>
+					<p>Company E-mail: Ad.mail.feedbacks@gmail.com</p>
+				   </ul>
+				</div>
+			    </td>
+			    
+				</div>
+			</tr>
+  		    </table>
+
+			  <div id="admin-copyright"><p>Copyright © 2018, Ibnu Anwari. All rights reserved, designed by 1625578.</p></div>	
+			  
+            </div>
+			
+			
+        </div>
+    </div>
+
+</form>
+	
+</body>
+
+</html>
