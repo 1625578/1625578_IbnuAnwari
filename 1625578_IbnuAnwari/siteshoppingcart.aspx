@@ -9,7 +9,7 @@
     <form runat="server">
      <table>
        <tr>
-          <td><h2>Product Detail &gt; Shopping Cart</h2></td>
+          <td><h2>Product Detail > Shopping Cart</h2></td>
        </tr>
 
        <tr>
@@ -17,7 +17,7 @@
         <asp:Image ID="productImage" runat="server" style="width:680px; height:450px;" />
         </td>
 
-        <td>________</td>
+        <td>_______</td>
 
         <td>
             <table>
@@ -64,7 +64,7 @@
  
                     </p>   
 
-                    <a href="siteproduct.aspx" runat="server">Back to Product</a>
+                    <a href="siteproduct.aspx" runat="server">Back to Product Page</a>
 
              </td>
              </tr>

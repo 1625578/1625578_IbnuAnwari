@@ -117,7 +117,7 @@
                 </td>				
 				
 				<td>
-				<div class="adminp-footerfeatures">
+				<div class="admin-footerfeatures">
 				<h2>Our Shop Product</h2>
 				   <ul>
 					<li><a href="siteproduct.aspx" runat="server">Organic Supplement Collection</a></li><br>

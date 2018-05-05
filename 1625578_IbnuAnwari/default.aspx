@@ -14,9 +14,9 @@
             <script src="banner/responsiveslides/slideshowbanner.js"></script>
             <div class="rslides_container ">
               <ul class="rslides" id="slider1">
-                <li><asp:Image runat="server" ImageUrl="banner/h1.jpg"/></li>
-                <li><asp:Image runat="server" ImageUrl="banner/h2.jpg"/></li>
-                <li><asp:Image runat="server" ImageUrl="banner/h3.jpg"/></li>
+                <li><asp:Image runat="server" ImageUrl="banner/h1.jpg"  /></li>
+                <li><asp:Image runat="server" ImageUrl="banner/h2.jpg"  /></li>
+                <li><asp:Image runat="server" ImageUrl="banner/h3.jpg"  /></li>
               </ul>
             </div>
 	        </div>
@@ -37,7 +37,7 @@
                     <ItemTemplate>
                         <td>
                             <a href="<%#Eval("ProductsId", "siteproductdetail.aspx?ProductsId={0}") %>">
-                            <asp:Image ID="productImage" runat="server" ImageURL='<%#string.Format("images/products/{0}.jpg", Eval("ProductsId"))%>' width="234" height="200" alt="images"  /></a>
+                            <asp:Image ID="productImage" runat="server" ImageURL='<%#string.Format("images/products/{0}.jpg", Eval("ProductsId"))%>' width="234" height="200"  /></a>
                         <br>
                         </br>
                             <a href="<%#Eval("ProductsId", "siteproductdetail.aspx?ProductsId={0}") %>"><%#Eval ("ProductsName")%></a>
@@ -73,7 +73,7 @@
                     <ItemTemplate>
                         <td>
                             <a href="<%#Eval("ProductsId", "siteproductdetail.aspx?ProductsId={0}") %>">
-                            <asp:Image ID="productImage" runat="server" ImageURL='<%#string.Format("images/products/{0}.jpg", Eval("ProductsId"))%>' width="234" height="200" alt="images"  /></a>
+                            <asp:Image ID="productImage" runat="server" ImageURL='<%#string.Format("images/products/{0}.jpg", Eval("ProductsId"))%>' width="234" height="200"  /></a>
                             <br>
                             </br>
                             <a href="<%#Eval("ProductsId", "siteproductdetail.aspx?ProductsId={0}") %>"><%#Eval ("ProductsName")%></a>
@@ -107,7 +107,7 @@
                     <ItemTemplate>
                         <td>
                             <a href="<%#Eval("ProductsId", "siteproductdetail.aspx?ProductsId={0}") %>">
-                            <asp:Image ID="productImage" runat="server" ImageURL='<%#string.Format("images/products/{0}.jpg", Eval("ProductsId"))%>' width="234" height="200" alt="images" /></a>
+                            <asp:Image ID="productImage" runat="server" ImageURL='<%#string.Format("images/products/{0}.jpg", Eval("ProductsId"))%>' width="234" height="200"/></a>
                             <br>
                             </br>
                             <a href="<%#Eval("ProductsId", "siteproductdetail.aspx?ProductsId={0}") %>"><%#Eval ("ProductsName")%></a>
